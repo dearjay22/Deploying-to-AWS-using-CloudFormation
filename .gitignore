@@ -1,0 +1,47 @@
+# CDK output directory
+cdk.out/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+
+# Node modules (if using JS/TS CDK or npm tools)
+node_modules/
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment files
+.env
+*.env
+
+# Backup files
+*.bak
+*.tmp
+
+# Pytest cache
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# AWS CDK context
+cdk.context.json
+
+# Build artifacts
+build/
+dist/
